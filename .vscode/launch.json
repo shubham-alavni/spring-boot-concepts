@@ -9,6 +9,16 @@
       "projectName": "cruddemo",
       "args": "",
       "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-RestDemoApplication<rest_demo>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.learn_rest_api.rest_demo.RestDemoApplication",
+      "projectName": "rest_demo",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
     }
   ]
 }
