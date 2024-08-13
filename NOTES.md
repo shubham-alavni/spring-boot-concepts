@@ -72,9 +72,19 @@
 
 ### @PostConstruct and @PreDestroy, when to use it? What is the use of it?, Why?
 
+### Service Layer in Spring, What is the use of it?, Why?, When to use it?, Use-cases?
+
+### @Component -> @Service, @Repository, @RestController - What is the difference?
+
+### @Repository vs @Service, when to use it?
+
+### Service Layer Best Practices
+
+### Why @Transactional is used in Service Layer? Not in DAO Layer?
+
 ## SQL Questions
 
 ### How to change AUTO_INCREMENT initial value in MySQL?
 
-### How to reset
+### How to reset AUTO_INCREMENT in MySQL?
 

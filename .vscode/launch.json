@@ -2,6 +2,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CruddemoApplication",
+      "request": "launch",
+      "mainClass": "com.lead.springboot.cruddemo.CruddemoApplication",
+      "projectName": ""
+    },
+    {
+      "type": "java",
       "name": "Spring Boot-CruddemoApplication<cruddemo>",
       "request": "launch",
       "cwd": "${workspaceFolder}",
@@ -17,6 +24,16 @@
       "cwd": "${workspaceFolder}",
       "mainClass": "com.learn_rest_api.rest_demo.RestDemoApplication",
       "projectName": "rest_demo",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-CruddemoApplication<com.lead.springboot-cruddemo>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.lead.springboot.cruddemo.CruddemoApplication",
+      "projectName": "com.lead.springboot-cruddemo",
       "args": "",
       "envFile": "${workspaceFolder}/.env"
     }
