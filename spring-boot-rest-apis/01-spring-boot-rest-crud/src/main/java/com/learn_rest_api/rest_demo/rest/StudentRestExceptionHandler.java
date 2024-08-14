@@ -10,11 +10,10 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 @ControllerAdvice
 public class StudentRestExceptionHandler {
 
-  // add exception handling code
-
   // Add logger for logging
   private static final Logger logger = LoggerFactory.getLogger(StudentRestExceptionHandler.class);
 
+  // add exception handling code
   @ExceptionHandler
   public ResponseEntity<StudentErrorResponse> handleException(StudentNotFoundException exc) {
     return buildResponseEntity(exc, HttpStatus.NOT_FOUND);

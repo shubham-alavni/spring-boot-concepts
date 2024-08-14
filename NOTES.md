@@ -1,3 +1,9 @@
+# Java Spring Boot Concepts - Interview Perspective
+
+## Spring Boot
+
+### IoC - Inversion of Control
+
 # JPA Hibernate Concepts
 
 ## JDBC
@@ -51,6 +57,11 @@
 
 ### @PathVariable vs @RequestParam
 
+- @PathVariable is used to extract values from the URI path
+- @RequestParam is used to extract values from the query string
+- @RequestParam is used to extract values from the form data
+- @RequestParam is used to extract values from the request parameter
+
 ### Best Practices for REST API Exception Handling and Error Representation for Real time applications
 
 ### @ExceptionHandler and ResponseEntity
@@ -60,15 +71,6 @@
 ### What is the use of `@ControllerAdvice` in Spring?
 
 ### How API Versioning can be done in Spring?
-
-## General Queries
-
-### How we can handle Timezone in Java Spring boot ?
-
-- @PathVariable is used to extract values from the URI path
-- @RequestParam is used to extract values from the query string
-- @RequestParam is used to extract values from the form data
-- @RequestParam is used to extract values from the request parameter
 
 ### @PostConstruct and @PreDestroy, when to use it? What is the use of it?, Why?
 
@@ -81,6 +83,12 @@
 ### Service Layer Best Practices
 
 ### Why @Transactional is used in Service Layer? Not in DAO Layer?
+
+### JPA API and Spring Data JPA, what is the difference?
+
+## General Queries
+
+### How we can handle Timezone in Java Spring boot ?
 
 ## SQL Questions
 

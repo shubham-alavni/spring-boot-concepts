@@ -66,4 +66,16 @@ public class EmployeeDAOJpaImpl implements EmployeeDAO {
     entityManager.remove(theEmployee);
   }
 
+  @Override
+  public Employee updateById(int theId) {
+    // find the employee
+    Employee theEmployee = entityManager.find(Employee.class, theId);
+
+    // update the employee
+    entityManager.merge(theEmployee);
+
+    // return the employee
+    return theEmployee;
+  }
+
 }
