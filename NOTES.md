@@ -86,6 +86,12 @@
 
 ### JPA API and Spring Data JPA, what is the difference?
 
+## REST API Security
+
+### Learn about JWT (JSON Web Token)
+
+### Learn about the Bcrypt Password Hashing Algorithm, Why it is used?
+
 ## General Queries
 
 ### How we can handle Timezone in Java Spring boot ?
