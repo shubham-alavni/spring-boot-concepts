@@ -92,6 +92,17 @@
 
 ### Learn about the Bcrypt Password Hashing Algorithm, Why it is used?
 
+## Spring MVC - Model View Controller - Thyemeleaf
+
+### how Spring searches directory for static resources in Spring Boot?
+- By default, Spring Boot serves static content from resources in the classpath at /static (or /public or /resources or /META-INF/resources) in the following locations:
+  - /META-INF/resources/
+  - /resources/
+  - /static/
+  - /public/
+
+### Behind the scene of Spring MVC
+
 ## General Queries
 
 ### How we can handle Timezone in Java Spring boot ?
