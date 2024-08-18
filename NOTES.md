@@ -103,6 +103,15 @@
 
 ### Behind the scene of Spring MVC
 
+## Spring Boot - Validation - Bean Validation with Hibernate Validator
+
+### @InitBinder, when to use it?
+
+### message.properties file, when to use it?
+
+- To provide custom error messages for validation annotations
+- To provide custom error messages for custom validation annotations
+
 ## General Queries
 
 ### How we can handle Timezone in Java Spring boot ?
